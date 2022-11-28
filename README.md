@@ -16,7 +16,9 @@ When going back to list view from detail view, the list view does not maintain t
 
 (Watch the video for better understanding)
 
-https://youtu.be/wuJv1LNJOY8
+ISSUE: https://youtu.be/wuJv1LNJOY8
+
+EXPECTED BEHAVIOR: https://youtu.be/5giVYope_ko
 
 - Go to the very last item of the list.
 - Click on the last item to go to detail view.
