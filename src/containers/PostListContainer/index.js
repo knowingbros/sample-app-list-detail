@@ -16,11 +16,6 @@ import { useComponentDidMountOrUpdate } from "../UserProfileContainer/useCompone
 function PostListContainer(props) {
   let { subredditTitle = "home" } = useParams();
 
-//   useEffect(() => {
-//     console.log("component mounted!");
-//     props.fetchPostList(subredditTitle, props.currentSortOption);
-//   }, []); //notice the empty array here
-
   useComponentDidMountOrUpdate(
     (prevDeps) => {
       const prevDep1 = prevDeps[0];
@@ -32,7 +27,8 @@ function PostListContainer(props) {
       if (
         subredditTitle !== prevDep1 ||
         props.authUsername !== prevDep2 ||
-        props.currentSortOption !== prevDep3
+        props.currentSortOption !== prevDep3 ||
+        props.allPosts.length === 0
       ) {
         // dep1 changed
         props.fetchPostList(subredditTitle, props.currentSortOption);
