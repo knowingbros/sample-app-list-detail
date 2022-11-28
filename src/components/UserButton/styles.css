@@ -1,0 +1,35 @@
+.user-button-inverted {
+    padding: 0em 2rem 0rem 2rem;
+    color: #4d4d4d;
+    border-color: greenyellow;
+    background: inherit;
+    height: 100%;
+    margin-left: 2rem;
+    font-size: 1em;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.user-button:hover {
+    padding: 0em 2rem 0rem 2rem;
+    color: #4d4d4d;
+    border-color: #4d4d4d;
+    background: #1a1a1a;
+    height: 100%;
+    margin-left: 2rem;
+    font-size: 1em;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.user-button {
+    padding: 0em 2rem 0rem 2rem;
+    color: #4d4d4d;
+    border-color: #4d4d4d;
+    background: inherit;
+    height: 100%;
+    margin-left: 2rem;
+    font-size: 1em;
+    font-family: Poppins;
+    font-weight: 700;
+}

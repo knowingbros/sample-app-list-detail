@@ -1,0 +1,76 @@
+div.text-editor-content {
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem 0.5rem 0.3rem 0.3rem;
+}
+
+div.text-editor-content .quill div.ql-toolbar {
+    background-color: #818481;
+    border: 0;
+}
+
+div.text-editor-content .quill div.ql-container {
+    border: 0;
+    background-color: #1a1a1a;
+}
+
+div.text-editor-content .quill div.ql-editor {
+    font-size: 105%;
+    min-height: 15rem;
+    color: white;
+    width: 100%;
+    white-space: normal;
+    ;
+}
+
+div.text-editor-content .quill div.ql-blank:before {
+    color: white;
+}
+
+/* Button */
+div.text-editor-content div.text-editor-loading-button-container {
+    display: flex;
+    background: #2d2d2d;
+}
+
+div.text-editor-content .loading-button-container {
+    min-width: auto;
+    min-height: auto;
+}
+
+div.text-editor-content .loading-button-container > .submit-button {
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-weight: bold;
+    background-color: inherit;
+    border: 1px solid #4d4d4d;
+}
+
+div.text-editor-content .loading-button-container > .submit-button:hover {
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-weight: bold;
+    background-color: #4d4d4d;
+    border: 1px solid #000000;
+}
+
+@media screen and (max-width: 700px) {
+    .quill div.ql-toolbar {
+        /*display: none;*/
+    }
+
+    div.text-editor-content {
+        border: 1px solid #4d4d4d;
+        border-top-right-radius: 0.3rem;
+        border-top-left-radius: 0.3rem;
+    }
+}
+
+#DO_NOT_EDIT_THIS {
+    color: #2e86de;
+    text-decoration-color: #2e86de;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,12 @@
+div.block-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  background-color: black;
+  border-radius: 4px;
+  min-height: 25rem;
+  background-color: #4d4d4d;
+}

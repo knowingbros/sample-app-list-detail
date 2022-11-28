@@ -1,0 +1,60 @@
+.comment-body-container {
+    max-width: 75rem;
+}
+
+.comment-body-container > p {
+    margin: 0;
+}
+
+.comment-body-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.comment-body-container a {
+    color: #127ae5 !important;
+    text-decoration-line: underline !important;
+    text-decoration-color: #127ae5 !important;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .comment-body-container > pre {
+        white-space: pre-wrap; /* css-3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+        word-break: break-word;
+    }
+
+}
+
+.comment-links > .comment-icon-and-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment-links > .comment-icon-and-button > div.comment-icon {
+    padding-top: 0.2rem;
+}
+
+.comment-links .comment-buttons {
+    background-color: inherit;
+    color: #818481;
+    font-weight: bold;
+    border: 0;
+    display: inline-block;
+    padding-left: 0.2rem;
+}
+
+.comment-links {
+    display: flex;
+    align-items: center;
+}
+
+.comment-links .comment-buttons:hover {
+    text-decoration: underline;
+}

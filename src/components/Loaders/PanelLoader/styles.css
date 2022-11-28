@@ -1,0 +1,14 @@
+div.panel-loader-container {
+  text-align: center;
+  background-color: #1a1a1a;
+  min-height: 6rem;
+  border: 1px solid #4d4d4d;
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.panel-loader-container:last-child {
+  border: 1px solid #4d4d4d;
+}

@@ -1,0 +1,20 @@
+div.nav-selector-button-container {
+  font-weight: 600;
+  color: inherit;
+  opacity: 0.4;
+  min-height: 3.5rem;
+  display: inline-flex;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+div.nav-selector-button-container > p {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+}
+
+div.nav-selector-button-container:hover {
+  opacity: 0.8;
+}

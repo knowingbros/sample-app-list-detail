@@ -1,0 +1,24 @@
+div.alert-message {
+  display: flex;
+  justify-content: center
+}
+
+div.alert-message #success-text {
+  color: green;
+  font-size: 1.3em;
+}
+
+div.alert-message #info-text {
+  color: #4d4d4d;
+  font-size: 1.3em;
+}
+
+div.alert-message #error-text {
+  color: red;
+  font-size: 1.3em;
+}
+
+p.alert-text {
+  padding-top: 0.4em;
+  padding-left: 1em;
+}

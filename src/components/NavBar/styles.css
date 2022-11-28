@@ -1,0 +1,234 @@
+#navbar-base {
+    font-family: Poppins;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+#navbar-base > #home-nav-link {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-base > #home-nav-link div.home-link-contents {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-base > #home-nav-link div.home-link-contents > #programmingdictionary-icon {
+    max-width: 3.5rem;
+    display: inline-block;
+}
+
+#navbar-base > #home-nav-link div.home-link-contents > #nav-home-link {
+    margin-bottom: -0.5rem;
+    margin-left: 0.3rem;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+#navbar-base > #home-nav-link div.home-link-contents > #nav-home-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-base > div#subreddit-feed-dropdown-container {
+    background-color: inherit;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-shrink: 0;
+    max-width: inherit;
+    display: flex;
+    flex: 2 6 auto;
+}
+
+div#subreddit-feed-dropdown-container > div.btn-group {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+div#subreddit-feed-dropdown-container button {
+    background-color: inherit;
+    color: white;
+    font-weight: 500;
+    flex: 1 1 100%;
+    height: 3.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color: transparent;
+}
+
+div#subreddit-feed-dropdown-container button:hover,
+div#subreddit-feed-dropdown-container > div.dropdown.open > button {
+    border-color: #cccccc;
+}
+
+div#subreddit-feed-dropdown-container ul.dropdown-menu {
+    background: #1b1b1b;
+    width: 100%;
+    top: 75%;
+    padding-top: 0.5rem;
+    border: 1px solid #cccccc;
+    border-top-color: transparent;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+div#subreddit-feed-dropdown-container ul.dropdown-menu li > a {
+    color: #cccccc;
+    padding-left: 1rem;
+}
+
+div#subreddit-feed-dropdown-container ul.dropdown-menu li > a:hover {
+    background-color: #4d4d4d;
+}
+
+#navbar-base > div#searchbar-container {
+    flex: 5 1 auto;
+    display: flex;
+}
+
+div#searchbar-container > div.navbar-form {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    border: 0 solid transparent;
+}
+
+div#searchbar-container > div.navbar-form div.form-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div#searchbar-container > div.navbar-form div.form-group input {
+    width: 100%;
+    background-color: #333333;
+    border-color: transparent;
+    color: white;
+}
+
+div#searchbar-container > div.navbar-form div.form-group input:hover,
+div#searchbar-container > div.navbar-form div.form-group input:active,
+div#searchbar-container > div.navbar-form div.form-group input:focus {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-color: #b8b8b8;
+}
+
+#navbar-base > div#user-auth-dropdown-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2 5 auto;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    #navbar-base > div#subreddit-feed-dropdown-container {
+        flex-shrink: 1;
+    }
+
+    #navbar-base > div#searchbar-container {
+        flex-shrink: 1;
+    }
+
+    #navbar-base > div#user-auth-dropdown-container {
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #nav-home-link {
+        display: none;
+    }
+
+    #navbar-base > div#subreddit-feed-dropdown-container {
+        margin: 0;
+        margin-right: 1rem;
+    }
+
+    div#subreddit-feed-dropdown-container button {
+        padding-left: 0.5rem;
+    }
+
+    div#subreddit-feed-dropdown-container button > span.caret {
+        margin-left: 0.5rem;
+    }
+}
+
+
+.dropdown-item-nav-bar-z:active {
+    background-color: #4d4d4d;
+}
+
+.dropdown-item-nav-bar-z:hover {
+    background-color: #4d4d4d;
+}
+
+
+a.dropdown-item-nav-bar-z.dropdown-item {
+    color: #cccccc;
+}
+
+/*div.feed-dropdown:hover {*/
+/*    background-color: #4d4d4d;*/
+/*}*/
+
+#dropdownMenu + div {
+    background-color: #002037 !important;
+}
+
+button#basic-nav-dropdown.dropdown-toggle {
+    background-color: inherit;
+    color: white;
+    font-weight: 500;
+    flex: 1 1 100%;
+    height: 3.5rem;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #4d4d4d;
+}
+
+div.dropdown-menu.show {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-color: #4d4d4d;
+}
+
+
+
+
+div.feed-dropdown.dropdown {
+    background-color: inherit;
+    color: white;
+    font-weight: 500;
+    flex: 1 1 100%;
+    margin-bottom: 0.5rem;
+    height: 3.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #4d4d4d;
+}
+

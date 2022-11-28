@@ -1,0 +1,53 @@
+.login-buttons {
+    background: transparent;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4d4d4d;
+    display: inline-block;
+    border: 4px dotted #4d4d4d;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    padding: 15px 16px;
+}
+
+.login-buttons:hover {
+    color: #4FBCFF;
+    background: transparent;
+    border: 4px dotted #4d4d4d;
+
+}
+.login-buttons:active {
+    color: #4FBCFF;
+    background: transparent;
+    border: 4px dotted #4d4d4d;
+
+}
+
+/*#single-button {*/
+/*    display: inline-block;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);*/
+/*    width: 100%;*/
+/*    background: transparent;*/
+/*    letter-spacing: 1px;*/
+/*    font-weight: 500;*/
+/*    font-size: 18px;*/
+/*}*/
+
+#single-button:hover {
+    color: #4FBCFF;
+    background: transparent;
+
+}
+#single-button:active {
+    color: #4FBCFF;
+    background: transparent;
+}
+
+.spinner-style {
+    display: inline;
+}

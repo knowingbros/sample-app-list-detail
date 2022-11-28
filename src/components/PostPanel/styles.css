@@ -1,0 +1,109 @@
+.post-segment-panel {
+  margin: 0;
+  min-height: 6rem;
+  min-width: 100%;
+  border: 1px solid #4d4d4d;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  font-family: Poppins;
+}
+
+
+.post-segment-panel:last-child {
+  border: 1px solid #4d4d4d;
+}
+
+.post-segment-panel:hover {
+  border: 1px solid white;
+}
+
+.post-segment-panel:hover + .post-segment-panel {
+  border-top: 0;
+}
+
+div.post-segment-panel > div.voter-container {
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+}
+
+.post-segment-text-container {
+  flex: 2;
+  padding: 0.5rem 0 0.5rem 1rem;
+  color: inherit;
+}
+
+.post-segment-title {
+  font-weight: bold;
+
+  color: #cccccc;
+  width: 100%;
+  white-space: normal;
+  ;
+  font-size: 1.1em;
+  margin-bottom: 0.3rem;
+}
+
+.post-segment-engtitletranslation {
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-bottom: 0.3rem;
+}
+
+.post-segment-info {
+  font-size: 80%;
+}
+.post-segment-info a:hover {
+  color: inherit;
+}
+.post-segment-info a.pp-subreddit-link {
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+.post-segment-info a.pp-user-profile-link {
+  margin-right: 1rem;
+  margin-left: 0.2rem;
+}
+
+.post-segment-links {
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.post-segment-links .post-buttons {
+  border-width: 0;
+  background-color: inherit;
+  color: #b8b8b8;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+}
+.post-segment-links .post-buttons:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+.post-segment-links a:hover,
+.post-segment-title > a.post-title:hover,
+div.post-segment-panel a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+.post-segment-links > div.post-segment-ellipsis-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.post-segment-links > div.post-segment-ellipsis-container > div.dropdown {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div.post-segment-panel a:focus {
+  color: white;
+}

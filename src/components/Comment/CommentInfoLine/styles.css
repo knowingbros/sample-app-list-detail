@@ -1,0 +1,13 @@
+.poster-info-container {
+  display: inline;
+  font-size: 80%;
+  color: #818481;
+}
+
+.poster-info-container span a {
+  color: #818481;
+}
+
+.poster-info-container span{
+  margin-right: 0.5rem;
+}

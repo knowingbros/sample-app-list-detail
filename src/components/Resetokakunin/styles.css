@@ -1,0 +1,70 @@
+.resetokakunin-container {
+    background-color: #1a1a1a;
+    height: 100%;
+    display: flex;
+}
+
+.resetokakunin-container > div#picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url("./resetokakuninPicture.jpg") no-repeat;
+    background-size: cover;
+    flex: 1 1 15%;
+}
+
+.resetokakunin-container > div#picture-container > a {
+    font-size: 0.8em;
+    color: black;
+}
+
+.content-container {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 3rem;
+    padding-right: 10rem;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+}
+
+.form-container {
+    margin-top: 6rem;
+}
+
+.form-container > hr {
+    border-color: #b8b8b8;
+}
+
+.form-container > h2 {
+    font-size: 145%;
+}
+
+.input-container {
+    margin-top: 3rem;
+}
+
+#description-input,
+#title-input {
+    width: 35rem;
+    max-width: 35rem;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+#description-input {
+    min-height: 8rem;
+}
+
+.input-container #title-input:-webkit-autofill,
+.input-container #title-input:-webkit-autofill:hover,
+.input-container #title-input:-webkit-autofill:focus,
+.input-container #title-input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white;
+}
+
+#create-button {
+    margin-right: -2rem;
+}

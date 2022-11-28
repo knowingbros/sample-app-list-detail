@@ -1,0 +1,49 @@
+.comment-tree-content .comment-voter-collapser {
+  flex: 0 0 auto;
+  min-width: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 20px;
+}
+
+span.thread-line-container {
+  flex: 1 1 auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+span.thread-line-container > div.thread-line {
+  background-color: #818481;
+  flex: 1 1 auto;
+  width: 1.5px;
+}
+span.thread-line-container:hover > div.thread-line {
+  background-color: white;
+}
+
+.comment-panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-panel > .comment-body-container,
+div.comment-panel > div.reply-text-editor-container {
+  max-width: 75%;
+}
+
+.comment-panel .comment-info-line-container,
+.comment-body-container,
+.comment-links {
+  padding-left: 0.6rem;
+}
+
+@media screen and (max-width: 800px) {
+  .comment-panel > .comment-body-container,
+  div.comment-panel > div.reply-text-editor-container {
+    max-width: 100%;
+  }
+}

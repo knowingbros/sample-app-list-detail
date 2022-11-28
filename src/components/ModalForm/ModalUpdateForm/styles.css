@@ -1,0 +1,9 @@
+div#update-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#update-form-container #userauth-update-form {
+  min-width: 90%;
+}

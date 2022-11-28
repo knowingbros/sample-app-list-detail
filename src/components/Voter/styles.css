@@ -1,0 +1,31 @@
+.vote-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+}
+
+.voter-arrow {
+  flex: 0 0 auto;
+}
+
+.voter span {
+  color: white;
+}
+
+.voter-arrow.upvoter span:hover {
+  color: #ffd43e;
+  cursor: pointer;
+}
+
+.voter-arrow.downvoter span:hover {
+  color: #18dcff;
+  cursor: pointer;
+}
+
+.vote-count {
+  flex: 0 0 auto;
+  font-weight: 700;
+}

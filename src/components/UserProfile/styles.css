@@ -1,0 +1,52 @@
+div.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+div.user-profile-container > div#user-profile-navbar {
+  background-color: #212529;
+  min-height: 4.5rem;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+div.user-profile-container
+  > div#user-profile-navbar
+  > #up-nav-selector-buttons {
+  margin-left: 5rem;
+}
+
+div.user-profile-container > div.user-profile-main-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+div.user-profile-main-content > div.user-profile-list {
+  flex: 1 1 50%;
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+}
+div.user-profile-main-content > div.user-profile-sidebar-container {
+  flex: 1 1 20%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  div.user-profile-main-content > div.user-profile-list {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+  }
+  div.user-profile-main-content > div.user-profile-sidebar-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  div.user-profile-main-content > div.user-profile-sidebar-container {
+    display: none;
+  }
+  div.user-profile-main-content > div.user-profile-list {
+    margin-right: 1rem;
+  }
+}

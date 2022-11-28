@@ -1,0 +1,109 @@
+.pxulw-segment-panel {
+  margin: 0;
+  min-height: 6rem;
+  min-width: 100%;
+  border: 1px solid #4d4d4d;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  font-family: Poppins;
+}
+
+
+.pxulw-segment-panel:last-child {
+  border: 1px solid #4d4d4d;
+}
+
+.pxulw-segment-panel:hover {
+  border: 1px solid white;
+}
+
+.pxulw-segment-panel:hover + .pxulw-segment-panel {
+  border-top: 0;
+}
+
+div.pxulw-segment-panel > div.voter-container {
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+}
+
+.pxulw-segment-text-container {
+  flex: 2;
+  padding: 0.5rem 0 0.5rem 1rem;
+  color: inherit;
+}
+
+.pxulw-segment-title {
+  font-weight: bold;
+
+  color: #cccccc;
+  width: 100%;
+  white-space: normal;
+  ;
+  font-size: 1.1em;
+  margin-bottom: 0.3rem;
+}
+
+.pxulw-segment-engtitletranslation {
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-bottom: 0.3rem;
+}
+
+.pxulw-segment-info {
+  font-size: 80%;
+}
+.pxulw-segment-info a:hover {
+  color: inherit;
+}
+.pxulw-segment-info a.pp-subreddit-link {
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+.pxulw-segment-info a.pp-user-profile-link {
+  margin-right: 1rem;
+  margin-left: 0.2rem;
+}
+
+.pxulw-segment-links {
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.pxulw-segment-links .pxulw-buttons {
+  border-width: 0;
+  background-color: inherit;
+  color: #b8b8b8;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+}
+.pxulw-segment-links .pxulw-buttons:hover {
+  background-color: #4d4d4d;
+  color: white;
+}
+.pxulw-segment-links a:hover,
+.pxulw-segment-title > a.pxulw-title:hover,
+div.pxulw-segment-panel a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+.pxulw-segment-links > div.pxulw-segment-ellipsis-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.pxulw-segment-links > div.pxulw-segment-ellipsis-container > div.dropdown {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div.pxulw-segment-panel a:focus {
+  color: white;
+}

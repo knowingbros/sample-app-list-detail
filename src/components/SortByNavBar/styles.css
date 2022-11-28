@@ -1,0 +1,127 @@
+div.sort-by-nav-bar-content {
+    background-color: #212529;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#basic-nav-dropdown {
+    color: #ffffff !important;
+    background: inherit !important;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#basic-nav-dropdown:active {
+    border: none !important;
+    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#basic-nav-dropdown:hover {
+    border: none  !important;
+    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#basic-nav-dropdown.dropdown-menu.show{
+    color: #ffffff !important;
+    background: #4fbcff !important;
+    border: 1px solid #4d4d4d !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 100%;
+    padding: 15px 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.dropdown-item {
+    display: flex;
+    justify-content: flex-start;
+    color: #cccccc;
+    width: 100%;
+    /*white-space: normal;*/
+    /*;*/
+}
+
+.dropdown-item:active {
+    background-color: #4d4d4d;
+    color: #cccccc;
+}
+a.active.dropdown-item {
+    background-color: #4d4d4d;
+    color: #cccccc;
+}
+.dropdown-item:hover {
+    background-color: #4d4d4d;
+    color: #cccccc;
+}
+.dropdown-menu.show {
+    padding: 0;
+    background-color: #212529;
+    border-color: #4d4d4d;
+}
+
+div.sort-by-nav-bar-content > div.dropdown {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.form-control {
+    background-color:  #212529;
+    color: white;
+    border: 1px solid #4d4d4d;
+}
+
+.form-control:focus, .form-control:active, .form-control:hover {
+    background-color:  #212529;
+    color: white;
+    border: 1px solid #4d4d4d;
+}
+
+div.sort-by-nav-bar-content > div.dropdown > button.sort-by-drop-down,
+div.sort-by-nav-bar-content > div.dropdown.open > button.sort-by-drop-down {
+    background-color: inherit;
+    border: 0;
+    color: #cccccc;
+    font-size: 0.85em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.dropdown > button.sort-by-drop-down span#sort-button-title {
+    margin-right: 1rem;
+    font-size: 0.85em;
+    color: #818384;
+}
+
+div.dropdown > button.sort-by-drop-down span#sb-title-option {
+    margin-right: 1.5rem;
+    font-size: 1.05em;
+}
+
+div.sort-by-nav-bar-content > div.dropdown > ul.dropdown-menu {
+    background-color: #1b1b1b;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #333333;
+}
+
+div.sort-by-nav-bar-content > div.dropdown > ul.dropdown-menu > li > a {
+    color: #cccccc;
+    border: 1px solid #333333;
+    border-top: 0;
+    box-shadow: inset 0 0 1px 1px #333333;
+    border-radius: 3px;
+}
+
+div.sort-by-nav-bar-content > div.dropdown > ul.dropdown-menu > li > a:hover {
+    color: #333333;
+}

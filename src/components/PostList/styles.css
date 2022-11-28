@@ -1,0 +1,9 @@
+div.postlist-content {
+  display: flex;
+  justify-content: center;
+}
+
+div.postlist-content > ul {
+  width: 100%;
+  height: 100%;
+}

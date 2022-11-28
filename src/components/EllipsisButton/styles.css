@@ -1,0 +1,44 @@
+div.link-bar-container div.dropdown.btn-group {
+    display: flex;
+    align-items: center;
+}
+
+#ellipsis-dropdown > .toggle-button::after {
+    display: none !important;
+}
+
+#ellipsis-dropdown > .toggle-button {
+    background-color: transparent;
+    color: #818481;
+    font-weight: bold;
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ellipsis-dropdown > .toggle-button:hover {
+    background-color: #4d4d4d;
+}
+
+.ellipsis-dropdown-menu.dropdown-menu {
+    background-color: #212529;
+}
+
+.ellipsis-dropdown-menu.dropdown-menu > li {
+    background-color: #333;
+    font-weight: bold;
+}
+
+.ellipsis-dropdown-menu.dropdown-menu > li > a {
+    color: #b8b8b8;
+    font-weight: bold;
+}
+
+.ellipsis-dropdown-menu.dropdown-menu > li > a:hover {
+    background-color: #4fbcff;
+    color: #333;
+}

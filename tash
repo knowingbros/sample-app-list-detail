@@ -1,0 +1,28 @@
+[1mdiff --git a/src/components/Account.styles.js b/src/components/Account.styles.js[m
+[1mindex 57c556f..3285659 100644[m
+[1m--- a/src/components/Account.styles.js[m
+[1m+++ b/src/components/Account.styles.js[m
+[36m@@ -47,8 +47,8 @@[m [mexport const FormPictureWrap = styled.div`[m
+ [m
+ export const FromImg = styled.img`[m
+   //width: 100%;[m
+[31m-  max-width: 75%;[m
+[31m-  object-fit: cover;[m
+[32m+[m[32m  max-width: 100%;[m
+[32m+[m[32m  max-height: 100%;[m
+   animation: ${ImgAnimation} .8s ease-in-out 1;[m
+ `[m
+ [m
+[1mdiff --git a/src/pages/account/Signup.js b/src/pages/account/Signup.js[m
+[1mindex 031bd3e..3adfea8 100644[m
+[1m--- a/src/pages/account/Signup.js[m
+[1m+++ b/src/pages/account/Signup.js[m
+[36m@@ -117,8 +117,6 @@[m [mexport default function Signup() {[m
+                         {/* <TextBox>[m
+                             <Text>Forgot Password? <NewLink to="/reset-password/">Reset Password</NewLink> </Text>[m
+                         </TextBox> */}[m
+[31m-[m
+[31m-[m
+                     </Form>[m
+                 </FormWrap>[m
+             </FormCont>[m

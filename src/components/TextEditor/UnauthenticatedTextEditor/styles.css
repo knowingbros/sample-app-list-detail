@@ -1,0 +1,44 @@
+div.unauth-text-editor-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  min-height: 6rem;
+  border-radius: 1rem;
+  border: 1px solid #818384;
+  margin-bottom: 2rem;
+}
+
+div.unauth-text-editor-content > div.unauth-te-text {
+  color: #cccccc;
+  flex: 1 1 50%;
+  text-align: center;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 1.4em;
+  padding-left: 1rem;
+}
+
+div.unauth-text-editor-content > div.unauth-te-buttons {
+  margin-right: 2rem;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 600px) {
+  div.unauth-text-editor-content > div.unauth-te-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div.unauth-text-editor-content > div.unauth-te-buttons > .user-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  div.unauth-text-editor-content > div.unauth-te-text {
+    font-size: 1.1rem;
+  }
+}
