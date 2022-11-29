@@ -21,20 +21,22 @@ function PostListContainer(props) {
       const prevDep1 = prevDeps[0];
       const prevDep2 = prevDeps[1];
       const prevDep3 = prevDeps[2];
-
+      const pageScope = sessionStorage.getItem('page-scope')
+      sessionStorage.setItem('page-scope',true);
       console.log(`useComponentDidMountOrUpdate prevDep1: ${prevDep1}`);
 
       if (
         subredditTitle !== prevDep1 ||
         props.authUsername !== prevDep2 ||
         props.currentSortOption !== prevDep3 ||
-        props.allPosts.length === 0
+        pageScope
       ) {
         // dep1 changed
         props.fetchPostList(subredditTitle, props.currentSortOption);
       }
 
       return () => {
+        sessionStorage.removeItem("page-scope");
         /* unmount handler */
       };
     },
